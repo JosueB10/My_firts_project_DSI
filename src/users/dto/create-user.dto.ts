@@ -11,7 +11,7 @@ export class CreateUserDto {
     required: true,
     example: 'John Doe',
   })
-  username?: string;
+  name: string;
 
   @ApiProperty({
     required: true,
@@ -26,3 +26,4 @@ export class CreateUserDto {
   })
   tenantId: number;
 }
+
